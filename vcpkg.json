@@ -1,0 +1,17 @@
+{
+  "name": "fluxcell",
+  "version": "0.1.0",
+  "dependencies": [
+    "eigen3",
+    "yaml-cpp",
+    "nlohmann-json",
+    {
+      "name": "hdf5",
+      "default-features": false,
+      "features": ["zlib"]
+    },
+    "sundials",
+    "glfw3"
+  ],
+  "builtin-baseline": "256acc64012b23a13041d8705805e1f23b43a024"
+}

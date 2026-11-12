@@ -1,0 +1,8 @@
+// FluxCell application resources.
+//
+// 1         - executable file icon (Explorer / taskbar pinning)
+// GLFW_ICON - window class icon loaded by the GLFW Win32 backend
+//             (title bar / taskbar fallback; the window icon is also
+//             set explicitly at runtime via glfwSetWindowIcon)
+1         ICON "fluxcell.ico"
+GLFW_ICON ICON "fluxcell.ico"

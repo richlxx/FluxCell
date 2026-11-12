@@ -1,0 +1,7 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# PyBaMM 数据缓存
+pybamm_data/

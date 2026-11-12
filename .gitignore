@@ -1,0 +1,43 @@
+# Build
+build/
+out/
+cmake-build-*/
+
+# Install output (cmake --install)
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# vcpkg
+vcpkg_installed/
+
+# Runtime outputs
+results/
+imgui.ini
+
+# Qoder IDE
+.qoder/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
