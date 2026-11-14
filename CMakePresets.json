@@ -12,9 +12,9 @@
     },
     {
       "name": "windows-default",
-      "displayName": "Windows x64 — VS2022 + vcpkg",
+      "displayName": "Windows x64 — VS2026 + vcpkg",
       "description": "多配置 Visual Studio 生成器，输出目录 build/",
-      "generator": "Visual Studio 17 2022",
+      "generator": "Visual Studio 18 2026",
       "architecture": { "value": "x64", "strategy": "set" },
       "binaryDir": "${sourceDir}/build",
       "inherits": "vcpkg-base"

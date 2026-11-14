@@ -19,12 +19,12 @@ option(FLUXCELL_BUILD_GUI   "Build GUI application" ON)
 if(MSVC)
     # /utf-8      源码字符集（中文注释）
     # /W3         警告级别
-    # /MP         多进程并行编译，加速 VS2022 全量构建
+    # /MP         多进程并行编译，加速 VS2026 全量构建
     # /permissive- 严格标准符合性
     add_compile_options(/utf-8 /W3 /MP /permissive-)
 endif()
 
-# ── VS2022 Solution Layout ───────────────────────────────────
+# ── VS2026 Solution Layout ───────────────────────────────────
 # 解决方案资源管理器按文件夹分组
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 # F5 直接启动 GUI 应用（默认启动项目）

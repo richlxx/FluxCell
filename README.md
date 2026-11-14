@@ -40,9 +40,11 @@
 **前置条件**
 
 - Windows 10/11 x64
-- Visual Studio 2022（MSVC，C++20）
-- CMake ≥ 3.25
-- [vcpkg](https://github.com/microsoft/vcpkg)，并设置环境变量 `VCPKG_ROOT`
+- Visual Studio 2026（MSVC，C++20）
+- CMake ≥ 4.3（需支持 `Visual Studio 18 2026` 生成器；可直接用 VS 自带的
+  `Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe`，旧版 CMake 不识别该生成器）
+- [vcpkg](https://github.com/microsoft/vcpkg)，并设置环境变量 `VCPKG_ROOT`；
+  须为 git 克隆而非源码 ZIP 解压（manifest 的 `builtin-baseline` 要靠 git 历史解析）
 - Git（首次配置会通过 FetchContent 拉取 Dear ImGui / ImPlot / ImGuiFileDialog / GoogleTest）
 
 **编译**

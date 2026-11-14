@@ -1,5 +1,5 @@
 # FluxCell Core Library
-# 头文件显式列出：VS2022 中可见、可搜索（Ctrl+T）、可跳转（ClInclude）
+# 头文件显式列出：VS2026 中可见、可搜索（Ctrl+T）、可跳转（ClInclude）
 add_library(fluxcell_core STATIC
     include/fluxcell/core/types.hpp
     include/fluxcell/core/model/cell_model.hpp
